@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Yak Shavers',
+  tagline: 'Yak Shaving teaches a lot, but its not straight way',
   url: 'https://github.com',
   baseUrl: '/blog_docusaurus/',
   onBrokenLinks: 'throw',
