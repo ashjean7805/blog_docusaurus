@@ -25,7 +25,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','kr'],
   },
 
   presets: [
@@ -58,21 +58,24 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Yak Shavers',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
+            type: 'doc',  
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Series',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'},
+          {
+            href: 'https://github.com/ashjean7805',
             label: 'GitHub',
             position: 'right',
           },
@@ -85,7 +88,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Series',
                 to: '/docs/intro',
               },
             ],
@@ -116,7 +119,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ashjean7805',
               },
             ],
           },
