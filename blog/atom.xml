@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog_docusaurus/blog</id>
-    <title>My Site Blog</title>
+    <title>Yak Shavers Blog</title>
     <updated>2022-06-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog_docusaurus/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Yak Shavers Blog</subtitle>
     <icon>https://github.com/blog_docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome Docusaurus v2]]></title>
