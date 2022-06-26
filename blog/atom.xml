@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog_docusaurus/blog</id>
     <title>Yak Shavers Blog</title>
-    <updated>2022-06-16T00:00:00.000Z</updated>
+    <updated>2022-06-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog_docusaurus/blog"/>
     <subtitle>Yak Shavers Blog</subtitle>
     <icon>https://github.com/blog_docusaurus/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[IBM Data Stage]]></title>
+        <id>datastage</id>
+        <link href="https://github.com/blog_docusaurus/blog/datastage"/>
+        <updated>2022-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simple .]]></summary>
+        <content type="html"><![CDATA[<p>본 포스팅은 가볍게 실제 사용 및 </p><h1>DataStage</h1><p>DataStage는 IBM 사의 ETL JOB Designer이며 Data Integration Project Tool로서 사용된다. DW, DM 이나 시스템 마이그레이션에도 사용된다.</p><ul><li>Import, Export, Create &amp; Manage metadate for jobs</li><li>Schedule, run &amp; monitor jobs</li><li>Administer DataStage development &amp; Execution environments.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="architecture">Architecture<a class="hash-link" href="#architecture" title="Direct link to heading">​</a></h2><ol><li>Client Tier : GUI 기반 client tool</li><li>Engine Tier : DS Engine + PX Engine</li><li>Service Tier</li><li>Metadata Repository Tier</li></ol><ul><li>통합메타데이터 : DataStage 뿐이 아닌  </li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="server-and-clients">Server and Clients<a class="hash-link" href="#server-and-clients" title="Direct link to heading">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="client-components">Client Components<a class="hash-link" href="#client-components" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="administrator">Administrator<a class="hash-link" href="#administrator" title="Direct link to heading">​</a></h3><ul><li>Specify general server defaults : ex) server connection timeout</li><li>Project Management </li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="designer">Designer<a class="hash-link" href="#designer" title="Direct link to heading">​</a></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="director">Director<a class="hash-link" href="#director" title="Direct link to heading">​</a></h3><ul><li>Statistics</li><li>Project Property : Global &amp; Projectwise both can exist </li><li>Projects are self-contained</li><li>Job : for 1 user at a time</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="etc">ETC<a class="hash-link" href="#etc" title="Direct link to heading">​</a></h2><h3></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1"><a class="hash-link" href="#-1" title="Direct link to heading">​</a></h3>]]></content>
+        <author>
+            <name>geromeyoo</name>
+        </author>
+        <category label="Data" term="Data"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome Docusaurus v2]]></title>
         <id>welcome-docusaurus-v2</id>
