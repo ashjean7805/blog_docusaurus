@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_docusaurus=self.webpackChunkblog_docusaurus||[]).push([[2535],{5641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"IBM Data Stage","permalink":"/blog_docusaurus/kr/blog/datastage"},{"title":"Welcome Docusaurus v2","permalink":"/blog_docusaurus/kr/blog/welcome-docusaurus-v2"}]}')}}]);
